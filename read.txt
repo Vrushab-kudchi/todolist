@@ -1,0 +1,11 @@
+This is the v2 of the application and have added database to it
+its a To Do List
+
+tech
+EJS
+Nodejs
+CSS
+express
+body-parser
+mongodb - mongoose
+
