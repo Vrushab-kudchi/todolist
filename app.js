@@ -99,6 +99,6 @@ app.get("/:customList", function (req, res) {
 	console.log(req.params.customList);
 })
 
-app.listen(3000, function () {
+app.listen(process.env.PORT || 3000, function () {
 	console.log("Server Running");
 });
