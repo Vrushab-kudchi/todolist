@@ -8,7 +8,7 @@ const mongoose = require("mongoose");
 mongoose.set('strictQuery', true);
 
 
-mongoose.connect('mongodb+srv://Vrushab:cA7zekXqSBEzlR3c@cluster0.s387cfq.mongodb.net/todolistDB')
+mongoose.connect('mongodb://127.0.0.1:27017/todolistDB');
 
 
 app.set("view engine", "ejs");
@@ -100,5 +100,5 @@ app.get("/:customList", function (req, res) {
 })
 
 app.listen(process.env.PORT || 3000, function () {
-	console.log("Server Running");
+	console.log("http://localhost:3000");
 });
